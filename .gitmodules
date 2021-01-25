@@ -1,0 +1,3 @@
+[submodule "fastText_multilingual"]
+	path = fastText_multilingual
+	url = https://github.com/Babylonpartners/fastText_multilingual

@@ -1,0 +1,21 @@
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - conllu=2.0
+  - einops=0.1.0
+  - gensim=3.8.0
+  - networkx=2.5
+  - numpy=1.16.5
+  - pip=19.2.3
+  - pymongo=3.9.0
+  - python=3.7.4
+  - pytorch=1.2.0
+  - pip:
+    - rnnr==0.4.0
+    - sacred==0.8.2
+    - text2array==0.2.0
+    - tqdm==4.31.1
+    - git+https://github.com/eevee/camel@365a8ae#egg=camel
+    - git+https://github.com/harvardnlp/pytorch-struct@9f93432#egg=torch_struct
