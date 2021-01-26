@@ -42,10 +42,11 @@ def heetal():
 def align(_log, fasttext_dir="fasttext", langs="en,id", output_dir="aligned_fasttext"):
     """Align fasttext embeddings with the method of Smith et al. (2017)."""
     output_dir = Path(output_dir)
+    output_dir.mkdir()
 
     for lang in langs.split(","):
         _log.info("Aligning embedding for %s", lang)
-        output_path = Path(output_dir) / f"wiki.multi.{lang}.vec"
+        output_path = output_dir / f"wiki.multi.{lang}.vec"
         if output_path.exists():
             _log.info("Aligned embedding already exists, skipping")
             continue
