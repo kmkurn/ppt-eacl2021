@@ -1,7 +1,23 @@
 # Parsimonious Parser Transfer
 
-This repository contains the code for the Parsimonious Parser Transfer (PPT) published
-in EACL 2021 by Kemal Kurniawan, Lea Frermann, Philip Schulz, and Trevor Cohn.
+This repository contains the code for the
+[Parsimonious Parser Transfer (PPT; EACL 2021)](https://www.aclweb.org/anthology/2021.eacl-main.254)
+by Kemal Kurniawan, Lea Frermann, Philip Schulz, and Trevor Cohn.
+
+## Citation
+
+```
+@inproceedings{kurniawan2021,
+  title = {PPT: Parsimonious Parser Transfer for Unsupervised Cross-Lingual Adaptation},
+  shorttitle = {PPT},
+  booktitle = {Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume},
+  author = {Kurniawan, Kemal and Frermann, Lea and Schulz, Philip and Cohn, Trevor},
+  year = {2021},
+  month = apr,
+  pages = {2907--2918},
+  url = {https://www.aclweb.org/anthology/2021.eacl-main.254}
+}
+```
 
 ## Fetching submodules
 
