@@ -95,6 +95,6 @@ Suppose you've trained the source parsers using `run_parser.py`, and the trained
 
 Change `distant` to `nearby` for nearby languages.
 
-## Sacred: an experiment manager
+## (Optional) Sacred: an experiment manager
 
 Almost all scripts in this repository use [Sacred](https://github.com/IDSIA/sacred/). The scripts are written so that you can store all about an experiment run in a MongoDB database. Simply set environment variables `SACRED_MONGO_URL` to point to a MongoDB instance and `SACRED_DB_NAME` to a database name to activate it. Also, invoke the `help` command of any such script to print its usage, e.g., `./run_parser.py help`.
